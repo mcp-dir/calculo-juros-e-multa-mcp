@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/calculo-juros-e-multa-mcp",
+  "title": "Cálculo de Juros e Multa",
+  "description": "Interest and penalty calculation for AI: apply simple or compound interest, penalty and official cor",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/calculo-juros-e-multa-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_calculo-juros-e-multa"
+    }
+  ]
+}
